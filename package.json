@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "node convert.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "^3.2.0",
     "jasmine-spec-reporter": "^4.2.1"
+  },
+  "dependencies": {
+    "convert-units": "^2.3.4"
   }
 }
